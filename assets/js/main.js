@@ -23,4 +23,4 @@ function linkAction(){
     const navMenu = document.getElementById('nav-menu');
     nav-menubar.classList.remove('showMenu');
 }
-navLink.addEventListener('click', linkAction);
+navLink.forEach(link => link.addEventListener('click', linkAction));
