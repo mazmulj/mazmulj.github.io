@@ -7,18 +7,18 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 59; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --first-color-lighter: hsl(var(--hue-color), 100%, 95%);
+    --title-color: hsl(var(--hue-color), 88%, 55%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --body-color: #000;
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
@@ -166,7 +166,11 @@ img{
     align-items: center;
 }
 
-.nav__logo
+.nav__logo{
+    font-family: Stardom;
+}
+
+.nav__logo,
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
@@ -292,7 +296,7 @@ img{
 .button{
     display: inline-block;
     background-color: var(--first-color);
-    color: #fff;
+    color: #000;
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
@@ -405,7 +409,7 @@ img{
 }
 
 .skills__bar{
-    background-color: var(--first-color-lighter);
+    background-color: #000;
 }
 
 .skills__percentage{
@@ -632,7 +636,7 @@ img{
 
 .contact__label{
     font-size: var(--smaller-font-size);
-    color: var(--title-color);
+    color: #000;
 }
 
 .contact__input{
@@ -687,7 +691,7 @@ img{
 .footer__title,
 .footer__link,
 .footer__social{
-    color: #fff;
+    color: #000;
 }
 
 /* SCROLL UP */
